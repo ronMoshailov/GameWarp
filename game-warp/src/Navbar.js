@@ -1,22 +1,23 @@
+import { Link } from 'react-router-dom';
 import './CSS/Navbar.css'
 
 const Navbar  = () => {
     return ( 
         <div className="navbar">
-            <a href="#">Home</a>
-            <a href="#">News</a>
+            <Link to="HomePage">Home</Link>
+            <Link to="AboutUs">About us</Link>
             <div class="dropdown">
                 <button class="dropbtn">Consoles
                     {/* <i class="fa fa-caret-down"></i> */}
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">PlayStation 3</a>
-                    <a href="#">PlayStation 4</a>
-                    <a href="#">PlayStation 5</a>
-                    <a href="#">Xbox 360</a>
-                    <a href="#">Xbox One X</a>
-                    <a href="#">Xbox Series X</a>
-                    <a href="#">Nintendo Switch</a>
+                    <Link to="PlayStation3Consoles">PlayStation 3</Link>
+                    <Link to="PlayStation4Consoles">PlayStation 4</Link>
+                    <Link to="PlayStation5Consoles">PlayStation 5</Link>
+                    <Link to="Xbox360Consoles">Xbox 360</Link>
+                    <Link to="XboxOneConsoles">Xbox One X</Link>
+                    <Link to="XboxSeriesConsoles">Xbox Series X</Link>
+                    <Link to="NintendoSwitchConsoles">Nintendo Switch</Link>
                 </div>
             </div>
             <div class="dropdown">
@@ -24,13 +25,13 @@ const Navbar  = () => {
                     {/* <i class="fa fa-caret-down"></i> */}
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">PlayStation 3</a>
-                    <a href="#">PlayStation 4</a>
-                    <a href="#">PlayStation 5</a>
-                    <a href="#">Xbox 360</a>
-                    <a href="#">Xbox One X</a>
-                    <a href="#">Xbox Series X</a>
-                    <a href="#">Nintendo Switch</a>
+                    <Link to="PlayStation3">PlayStation 3</Link>
+                    <Link to="PlayStation4">PlayStation 4</Link>
+                    <Link to="PlayStation5">PlayStation 5</Link>
+                    <Link to="Xbox360">Xbox 360</Link>
+                    <Link to="XboxOne">Xbox One X</Link>
+                    <Link to="XboxSeries">Xbox Series X</Link>
+                    <Link to="NintendoSwitch">Nintendo Switch</Link>
                 </div>
             </div>
         </div>
