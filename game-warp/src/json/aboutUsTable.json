@@ -1,0 +1,60 @@
+{
+    "employees": [
+        {
+            "Name":"Ron Moshailov",
+            "Role":"Manager",
+            "Phone":"054-8348091",
+            "Email":"moshailovron@gmail.com",
+            "Activity time":"08:00 - 18:00",
+            "id": 1
+        },
+        {
+            "Name":"Itachi Uchiha",
+            "Role":"Director of Sales",
+            "Phone":"054-1231234",
+            "Email":"itachi0@uchiha.com",
+            "Activity time":"08:00 - 16:00",
+            "id": 2
+        },
+        {
+            "Name":"Eugene Harold Krabs",
+            "Role":"Purchasing Manager",
+            "Phone":"054-1602160",
+            "Email":"mrKrab@krabbyKrab.com",
+            "Activity time":"08:00 - 18:00",
+            "id": 3
+        },
+        {
+            "Name":"Son Goku",
+            "Role":"Warehouse Manager",
+            "Phone":"054-4444444",
+            "Email":"kakarotto@DragonBallZ.com",
+            "Activity time":"8:00 - 17:00",
+            "id": 4
+        },
+        {
+            "Name":"Misty Williams",
+            "Role":"Reception",
+            "Phone":"054-1809090",
+            "Email":"misty@cerulean.com",
+            "Activity time":"8:00 - 16:00",
+            "id": 5
+        },
+        {
+            "Name":"Kaneki Ken",
+            "Role":"Security",
+            "Phone":"054-3043040",
+            "Email":"kaneki@anteiku.com",
+            "Activity time":"8:00 - 20:00",
+            "id": 6
+        },
+        {
+            "Name":"Gary Hamburgeri",
+            "Role":"Cleaner company",
+            "Phone":"054-3043040",
+            "Email":"gary@thePajamas.com",
+            "Activity time":"8:00 - 16:00",
+            "id": 7
+        }
+    ]
+}
